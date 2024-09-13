@@ -1,1 +1,23 @@
-#header1 {color: #330066}
+.body {
+    background-color: #000000;
+    color: #33cc33;
+}
+
+/* Not part of the current assignment, im playing around with getting that 4:3 aspect ratio in the body of the page
+
+.container {
+    background-color: red;
+    width: 100%;
+    padding-top: 75%; 
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+*/

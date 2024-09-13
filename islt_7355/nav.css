@@ -1,0 +1,21 @@
+.nav {
+    background-color: #333333;
+    color: #33cc33;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #33cc33;
+}
+
+.nav > li > a:hover {
+    color: #339933;
+}
