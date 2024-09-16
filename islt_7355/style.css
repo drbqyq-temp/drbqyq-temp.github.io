@@ -1,23 +1,20 @@
 .body {
     background-color: #000000;
     color: #33cc33;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-/* Not part of the current assignment, im playing around with getting that 4:3 aspect ratio in the body of the page
-
-.container {
-    background-color: red;
-    width: 100%;
-    padding-top: 75%; 
-    position: relative;
+p.indent {
+    text-indent: 30px;
 }
 
-.text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+p.first::first-letter {
+    color: #ffffff;
 }
 
-*/
+div {
+    width: 75%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
