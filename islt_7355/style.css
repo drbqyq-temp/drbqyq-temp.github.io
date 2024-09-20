@@ -12,9 +12,31 @@ p.first::first-letter {
     color: #ffffff;
 }
 
+img {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 256px;
+    height: 256px;
+}
+
+.profile {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    width: 256px;
+    height: 256px;
+}
+
 div {
     width: 75%;
     padding-left: 12.5%;
     padding-right: 12.5%;
 }
 
+@media screen and (max-width: 600px) {
+    .profile {
+        float: none;
+        margin: 20px 20px 20px 20px;
+        width: 256px;
+        height: 256px;
+    }
+}
