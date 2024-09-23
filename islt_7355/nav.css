@@ -20,3 +20,55 @@
     color: #339933;
 }
 
+.dropbtn {
+    background-color: #333333;
+    color: #33cc33;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #33cc33;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    color: #339933;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    color: #339933;
+}
+
+@media screen and (max-width: 600px) {
+    .desktop-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .mobile-nav {
+        display: none;
+    }
+}

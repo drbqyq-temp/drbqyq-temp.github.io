@@ -39,4 +39,10 @@ div {
         width: 256px;
         height: 256px;
     }
+
+    div {
+        width: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 }

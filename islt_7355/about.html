@@ -23,13 +23,25 @@ Tested:  September 15, 2024; Passed on Firefox and Chrome browsers.
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css"> <!--For some reason the CSS isnt working the same on this page as on index.html, investigate later-->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
 </head>
 <body class="body">
-    <ul class="nav">
+    <ul class="nav dropdown mobile-nav">
+        <li>About Me</li>
+        <li class="dropdown"><button class="dropbtn">Dropdown</button></li>
+        <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="reflection.html">Reflection</a>
+            <a href="#contact.html">Contact Me</a>
+        </div>
+    </ul>
+    <ul class="nav desktop-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#projects.html">Projects</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="reflection.html">Reflection</a></li>
         <li><a href="#contact.html">Contact Me</a></li>
     </ul>
