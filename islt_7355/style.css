@@ -12,6 +12,10 @@ p.first::first-letter {
     color: #ffffff;
 }
 
+li {
+    margin: 10px;
+}
+
 img {
     float: left;
     margin: 0 20px 20px 0;
@@ -19,11 +23,49 @@ img {
     height: 256px;
 }
 
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .profile {
     float: left;
     margin: 0px 20px 20px 0px;
     width: 256px;
     height: 256px;
+}
+
+a.contactlink {
+    text-decoration: none;
+    color: #33cc33;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    margin: 0 18px 0 0;
+}
+
+a.contactlink:hover .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 12px 0 0;
+}
+
+.footerbox {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+    background-image: url(media/images/footer_background.png);
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 div {
@@ -35,14 +77,36 @@ div {
 @media screen and (max-width: 600px) {
     .profile {
         float: none;
-        margin: 20px 20px 20px 20px;
-        width: 256px;
-        height: 256px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
     }
 
     div {
         width: auto;
         padding-left: 0%;
         padding-right: 0%;
+    }
+}
+
+@media print {
+    .body {
+        color: #000000;
+    }
+
+    a.contactlink {
+        color: #000000;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    div {
+        width: auto;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 1in 1in 1in 1in;
     }
 }
