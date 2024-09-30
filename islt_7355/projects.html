@@ -22,6 +22,10 @@ Tested:  September 15, 2024; Passed on Firefox and Chrome browsers.
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="media/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/images/favicon-16x16.png">
+    <link rel="manifest" href="media/images/site.webmanifest">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
@@ -48,12 +52,41 @@ Tested:  September 15, 2024; Passed on Firefox and Chrome browsers.
     <div>
     <header>
         <h1>Projects</h1>
-        <h3>Sit down, grab a beverage, and peruse my wares at your leisure.</h3>
     </header>
     <main>
         <p>
-            I was about to turn in Project 5 when I realized that the deliverables included a project.html file, so I'm putting together this really basic one. 
+            This time I remembered to make the layout, but I forgot to get any of the media needed for my project page. So I just have short descriptions for now.
         </p>
+        <div class="container">
+            <div class="columns">
+                <div class="item">
+                    <h3>Battleship - Python</h3>
+                    <p>
+                        My first large project, completed in my senior year of high school, this is an implimentation of the classic board game "Battleship" in python. The game runs entirely in the python console, with the player inputting their shot coordinates as commands, and the game state is displayed using ascii characters. 
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Distance Distrobutions - Python</h3>
+                    <img class="projectimage" src="media/images/freq_2.png">
+                    <p>
+                        During my undergraduate research, my professor suggested this as a small project to familiarize myself with the Matplotlib library, which I would need to be familiar with going forward. It's meant as a demonstration of how you can use the the distance between objects as a way of finding the distrobustion of those objects through a space. 
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Snake - Python</h3>
+                    <p>
+                        My second game in python, this time I decided to use a graphical library, PyGame, to make the classic computer game Snake. 
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Galaxy Classification - Python</h3>
+                    <p>
+                        This is most of what I did during my undergraduate research. Our plan was to take the new images of very distant galaxies taken by the JWST, and classify them into the different categories of galaxy (spiral, elliptical, irregular, etc.) to see if we could find any insights about early galactic formation. My job in this task was to take the reduced images taken by JWST, which were in the standard ".fits" format used throughout astronomy, and turn them into .png files. Then, we took those files and uploaded them to Zooniverse, a citizen science platform, where users around the world could help us classify the galaxies.
+                    </p>
+                </div>
+            </div>
+          </div>
+          
     </main>
     <footer class="footerbox">
         <ul>
