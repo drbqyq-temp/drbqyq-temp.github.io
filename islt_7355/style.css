@@ -96,17 +96,17 @@ div {
     flex-direction: column;
     flex-wrap: wrap;
     width: auto;
-  }
+}
   
-  .columns {
+.columns {
     justify-content: center;
     column-count: 2;
     column-gap: 10px;
     row-gap: 10px;
     flex: 50%;
-  }
+}
   
-  .item {
+.item {
     justify-content: center;
     display: block;
     box-sizing: border-box;
@@ -119,7 +119,51 @@ div {
     /* Firefox */
     break-inside: avoid;
     /* IE 10+ */
-  }
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #333333; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: #333333;
+    color: #33cc33;
+}
+
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #333333; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: #333333;
+    color: #33cc33;
+}
+  
+input[type=submit] {
+    background-color: #333333;
+    color: #33cc33;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    color: #339933;
+}
+  
+.form_container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+    margin: auto;
+} 
 
 @media screen and (max-width: 600px) {
     .profile {
